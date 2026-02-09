@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ebbebe;
+            padding: 20px;
+        }
+
+        header, section, footer {
+            background: lavender;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left {
+            width: 65%;
+        }
+
+        .right {
+            width: 30%;
+            text-align: right;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background: #2c3e50;
+            color: white;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        progress {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="top">
+        <div class="left">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/75/National_Institute_of_Technology%2C_Kurukshetra_Logo.png" width="100" class="logo">
+            <h1>Nitin Kumar</h1>
+            <h3>Roll No: 524110051</h3>
+            <h3>Degree: Master of Computer Application</h3>
+            <h3>Course: Computer Application</h3>
+            <h3>College: NIT Kurukshetra</h3>
+        </div>
+
+        <div class="right">
+            <p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvIH0qQEwp_XV51RMqRW30rtrLvU0EI9wTg&s" width="20px"> 
+                <a href="tel:8218518057">8218518057</a></p>
+            <p> <img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" width="35px"> 
+                <a href="mailto:706003n@gmail.com">706003n@gmail.com</a></p>
+            <p> <img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" width="35px"> 
+                 <a href="mailto:524110051@nitkkr.ac.in">524110051@nitkkr.ac.in</a></p>
+
+            <p> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="25px">
+                <a href="https://github.com/Nitnks8218" target="_blank">Nitnks8218</a></p>
+            <p> <img src="https://img.freepik.com/premium-vector/round-linkedin-logo-isolated-white-background_469489-985.jpg" width="25px">
+                 <a href="https://www.linkedin.com/in/nitin-singh-44b30b381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">NiTin SinGh</a></p>
+        </div>
+    </div>
+</header>
+
+<section>
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Institute</th>
+            <th>Degree</th>
+            <th>Year</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>NIT Kurukshetra</td>
+            <td>MCA</td>
+            <td>2025</td>
+            <td>6.9262</td>
+        </tr>
+        <tr>
+            <td>Bareilly College Bareilly</td>
+            <td>B.Sc</td>
+            <td>2021</td>
+            <td>62%</td>
+        </tr>
+        <tr>
+            <td>Radha Madhav Public School</td>
+            <td>12th</td>
+            <td>2018</td>
+            <td>76%</td>
+        </tr>
+        <tr>
+            <td>Radha Madhav Public School</td>
+            <td>10th</td>
+            <td>2016</td>
+            <td>8.8 CGPA</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C Programming</li>
+        <li>MySQL</li>
+        <li>GitHub</li>
+        <li>VS Code</li>
+    </ul>
+
+    <h3>Skill Levels</h3>
+    Java <progress value="80" max="100"></progress><br>
+    Python <progress value="70" max="100"></progress><br>
+    C <progress value="75" max="100"></progress><br>
+</section>
+
+<section>
+    <h2>Area of Interest</h2>
+    <ol>
+        <li>Machine Learning</li>
+        <li>Web Development</li>
+        <li>Software Engineering</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Soft Skills</h2>
+    <input type="checkbox" checked> Communication<br>
+    <input type="checkbox" checked> Team Work<br>
+    <input type="checkbox" checked> Problem Solving<br>
+</section>
+
+<section>
+    <h2>More About Me</h2>
+    <details>
+        <summary>Click to know more</summary>
+        <p>I am an MCA student at NIT Kurukshetra, passionate about coding and development.</p>
+    </details>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <form>
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            Name: <input type="text" placeholder="Enter name"><br><br>
+            Email: <input type="email" placeholder="Enter email"><br><br>
+
+            Gender:
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female<br><br>
+
+            Message:<br>
+            <textarea rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Send">
+            <input type="reset">
+        </fieldset>
+    </form>
+</section>
+
+</body>
+</html>
